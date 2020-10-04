@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(2, 90, 206);
+}
+
+header {
+  height: 60px;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100%;
+  width: 50%;
+}
+
+.container {
+  height: fit-content;
+  width: 100%;
+}
+
+.conteudo-container {
+  background-color: white;
+  border-radius: 6px;
+  align-items: center;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  padding: 15px;
+}
+
+.saida-numeros {
+  padding: 15px;
+}
+
+footer {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  padding: 15px;
+}
